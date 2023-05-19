@@ -1,7 +1,7 @@
+const temperature = "20";
 
-const isCitizen = true;
-const age = 26;
-
-if (isCitizen && age > 24) {
-  console.log("You are eligible to vote.");
+if(temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+} else {
+  console.log("You are good to go.");
 }
